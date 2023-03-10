@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background:#262a2f;
+}
+.login-box{
+    background: #fff;
+    padding: 30px 120px ;
+    width: 550px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50% ;
+    text-align: center;
+    border-radius: 10px;
+
+}
+.logo{
+    width: 30px;
+    margin-bottom: 20px;
+}
+.login-box h2{
+    margin-top: 20px;
+}
+
+.login-box button img{
+    width: 18px;
+    margin-right: 10px;
+
+}
+
+.login-box button{
+    justify-content: center ;
+    margin: 20px 0 ;
+    width: 100%;
+    padding: 10px 0 ;
+    display: flex;
+    align-items: center ;
+    border: 1px solid #999;
+    background:  transparent;
+    font-weight: 500 ;
+    border-radius: 30px ;
+    cursor: pointer;
+    
+}
+
+.login-box hr{
+    margin:5px ;
+    border: 0;
+    height: 1px;
+    background: #c2c2c2;
+}
+.login-box span{
+
+    display:block ;
+    width: 40px;
+    margin: auto ;
+    background: #fff;
+    font-size: 14px;
+    margin-top: -16px;
+}
+.login-box input{
+    width: 100%;
+    background: transparent;
+    border: 0.7px solid;
+    padding: 15px 10px;
+    outline: 0;
+    border-radius: 4px;
+    margin: 10px 0;
+}
+::placeholder{
+    font-weight: 500;
+    color: #333;
+}
+.login-box form  button{
+    background: #000;
+    color: #fff;
+    margin-top: 15px;
+    border:0;
+}
+.login-box p{
+    text-align: left;
+    font-size: 14px;
+    color: #555;
+    margin: 40px 0 50px ;
+}
+.login-box p a{
+    text-decoration: none;
+    color: rgb(27, 121, 188);
+}
